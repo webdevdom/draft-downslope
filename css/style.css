@@ -1,0 +1,587 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+/*
+Displays:
+font-family: 'Black Ops One', cursive;
+
+Headings:
+font-family: 'Lato', sans-serif;
+
+Regular text:
+font-family: 'Open Sans', sans-serif;
+*/
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 10px;
+  width: 100%;
+  line-height: 1.6;
+  margin: 2em;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.wrapper {
+  overflow-x: hidden;
+}
+
+.heading-button , .main-product-button {
+  background-color: #c19163;
+  border: none;
+  color: white;
+  padding: 0.5em 1.6em;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.0rem;
+  transition: 1s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.heading-button:hover , .main-product-button:hover {
+  background-color: #9a6b3d;
+}
+
+
+/* Shipping        */
+.shipping {
+  background: black;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  height: 2.8em;
+}
+.shipping p {
+  padding-top: 0.6em;
+}
+
+
+/* Navigation           */
+.navbar {
+  background-color: #fff;
+}
+.nav-link {
+  margin: 0 1.1em;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+}
+.nav-link:hover {
+  color: #c19163 !important;
+}
+.navbar-brand {
+  text-transform: uppercase;
+  font-family: 'Black Ops One', cursive;
+}
+
+
+
+
+/* Header               */
+header {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)) , url("https://images.pexels.com/photos/2986403/pexels-photo-2986403.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: 25% 75%; */
+}
+.heading-container h1 {
+  padding-top: 3em;
+  padding-left: 1em;
+  font-size: 4em;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 900;
+}
+header p {
+  text-transform: uppercase;
+  color: #c19163 !important;
+
+}
+
+
+
+/* Main Product         */
+.product-container {
+  margin: 5em;
+}
+.product-container h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+}
+.product-container p {
+  color: #888;
+  width: 900px;
+  letter-spacing: 0.5px;
+
+}
+.main-product-button {
+  padding: 0.8em 1.6em;
+}
+
+
+/* Explore               */
+.explore {
+  background: #181818;
+}
+.explore-container h5 {
+  color: #F5F5F5;
+  padding-top: 5em;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 0.7px;
+}
+.explore-img {
+  position: relative;
+  width: 100%;
+}
+.explore-img img {
+  filter: brightness(60%);
+  transition: 0.7s;
+}
+.explore-img img:hover {
+  filter: none;
+  transition-timing-function: ease-in-out;
+}
+.explore-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #c19163;
+  text-shadow: 2px 2px 10px black;
+}
+.explore-row {
+  padding-bottom: 8em;
+}
+
+
+
+/* Banner 1          */
+.banner-1-img {
+  background-image: url("https://rxi.iscdn.net/2020/03/198933_bloss_rs_sx19_mec_022.jpg?auto=format,compress&q=50&w=1074");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.banner-1-text {
+  font-size: 5rem;;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  padding-top: 50px;
+  font-weight: 900;
+}
+.banner-1-subtext {
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  margin-top: 52em;
+  font-size: 0.7rem;
+}
+
+
+
+/* Youtube           */
+.youtube {
+  background: #181818;
+  padding-bottom: 8em;
+}
+.youtube-container h5 {
+  color: #F5F5F5;
+  padding-top: 5em;
+  text-transform: uppercase;
+}
+.yt-img {
+  filter: brightness(75%);
+  cursor: pointer;
+  transition-timing-function: ease-in-out;
+}
+.yt-img:hover {
+  filter: none;
+  transition: 0.3s;
+}
+.youtube-container video {
+  filter: brightness(60%);
+}
+.youtube-container strong {
+  color: #c19163;
+}
+
+
+
+
+/* Instagram        */
+.instagram {
+  background: #fff;
+  margin-bottom: 6em;
+}
+.instagram-container h5 {
+  color: black;
+  padding-top: 5em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.instagram-container p {
+  margin-bottom: 2.9em;
+  color:#c19163;
+}
+
+
+
+/* Footer          */
+ul {
+  margin: 0px;
+  padding: 0px !important;
+}
+.footer-social-icon i {
+  width: 0;
+}
+.footer-section {
+  background: #181818;
+  position: relative;
+}
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.footer-logo {
+  margin-bottom: 30px;
+}
+.footer-logo img {
+    max-width: 200px;
+}
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+  color: #7e7e7e;
+  line-height: 28px;
+}
+.footer-social-icon span {
+  color: #E0E0E0;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 12px;
+}
+.footer-social-icon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+}
+.footer-social-icon i {
+  height: 40px;
+  width: 0px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+  padding: 0 25px 0 0;
+}
+.facebook-bg{
+  background: #3B5998;
+}
+.twitter-bg{
+  background: #55ACEE;
+}
+.google-bg{
+  background: #DD4B39;
+}
+.footer-widget-heading h3 {
+  color: #E0E0E0;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #c19163;
+}
+.footer-widget ul li {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin-bottom: 12px;
+}
+.footer-widget ul li a {
+  text-decoration: none;
+}
+.footer-widget ul li a:hover{
+  color: #ff5e14;
+}
+.footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+}
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2E2E2E;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+}
+.subscribe-form button {
+  position: absolute;
+  right: 0;
+  background: #c19163;
+  padding: 13px 20px;
+  border: 1px solid #ff5e14;
+  top: 0;
+  color: white;
+}
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+.copyright-area{
+  background: #202020;
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+.copyright-text p a{
+  color: #c19163;
+}
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer-menu li:hover a{
+  color: #ff5e14;
+}
+.footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA         */
+
+/* Phone  */
+@media only screen and (min-width:320px) and (max-width:480px) {
+  .main-button {
+    font-size: 0.8rem;
+    padding: 0.8em 1.6em;
+  }
+  .navbar-light .navbar-brand {
+    font-size: 1em;
+  }
+  .navbar-light .navbar-toggler-icon {
+    width: 1em;
+  }
+  header {
+    background-position: 17% 75%;
+  }
+  .heading-container h1 {
+    padding-top: 2.5em;
+    font-size: 2.9em;
+    text-transform: uppercase;
+    color:white;
+    padding-left: 0 !important;
+  }
+  header p {
+    text-transform: uppercase;
+    color:white;
+    font-size: 1em;
+    padding-left: 0.3em !important;
+  }
+  .heading-button {
+    margin-left: 0.2em !important;
+  }
+  .shipping {
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.5rem;
+    height: 2.1em;
+  }
+  .shipping p {
+    padding-top: 0.3em;
+  }
+  .product-container {
+    margin: 5em;
+  }
+  .product-container h3{
+    font-size: 1.3rem;
+  }
+  .product-container p {
+    font-size: 0.8rem;
+    width: auto;
+  }
+  .explore-container h5 {
+    padding-top: 5em;
+    font-size: 0.75rem;
+  }
+  .explore-row {
+    padding-bottom: 6em;
+  }
+  .banner-1-img {
+    background-position: ;
+  }
+  .banner-1-text {
+    font-size: 2rem;
+    padding-top: 75px;
+  }
+  .youtube-container h5 {
+    padding-top: 8em;
+    font-size: 0.75rem;
+  }
+  .youtube {
+    padding-bottom: 7em;
+  }
+  .instagram {
+    margin-bottom: 6em;
+  }
+  .instagram-container h5 {
+    margin-top: 5em;
+    padding: 0;
+    font-size: 1.0rem;
+    color: #212529;
+    text-align: center;
+    white-space: nowrap;
+  }
+  .instagram-container p {
+    font-size: 0.6rem;
+    margin-bottom: 2.9em;
+    text-align: center;
+  }
+  .verified-check img {
+    width: 10px;
+  }
+  .footer-social-icon, .useful-links  {
+    margin-bottom: 2em;
+  }
+  .footer-social-icon span {
+    font-size: 0.8em;
+    margin-bottom: 0px;
+    font-weight: 600;
+  }
+  .useful-links ul li a {
+    font-size: 0.7rem;
+    text-decoration: none;
+  }
+  .useful-links ul li a: hover {
+    text-decoration: underline;
+  }
+  .footer-widget-heading h3 {
+    font-size: 0.8em
+  }
+  .footer-widget ul li {
+    margin-bottom: 0.1em;
+  }
+  ::placeholder {
+    font-size: 0.6rem;
+  }
+  input[type=text], select, textarea {
+    padding: 0.1rem 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .subscribe-form button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: WHITE;
+    background: #ff5e14;
+    padding: 13px 20px;
+    border: 1px solid #ff5e14;
+    font-size: 0.5rem;
+  }
+  .subscribe-form button i {
+    color: #fff;
+    font-size: 22px;
+    transform: rotate(-6deg);
+  }
+  .copyright-area {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (min-width:481px) {
+  .heading-container h1 {
+    padding-top: 2.0em;
+    padding-left: 0.5em;
+    font-size: 4em;
+    text-transform: uppercase;
+    color:white;
+  }
+  header p {
+    text-transform: uppercase;
+    color:white;
+    padding-left: 2.2em !important;
+  }
+  .heading-button {
+    margin-left: 2.1em !important;
+  }
+}
+
+@media only screen and (min-width:990px) {
+  .heading-container h1 {
+    padding-top: 1.5em;
+    padding-left: 0.4em;
+    font-size: 4.5em;
+  }
+  .nav-link {
+    font-size: 16px;
+  }
+  /* Shipping        */
+  .shipping {
+    font-size: 0.5rem;
+    height: 2.8em;
+  }
+  /* Breadcrumb       */
+  .breadcrumb-container {
+    margin-top: 2em;
+    height: 30px;
+    font-size: 0.7em;
+  }
+}

@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+/*
+Displays:
+font-family: 'Black Ops One', cursive;
+
+Headings:
+font-family: 'Lato', sans-serif;
+
+Regular text:
+font-family: 'Open Sans', sans-serif;
+*/
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 10px;
+  line-height: 1.6;
+  margin: 2em;
+  font-family: 'Open Sans', sans-serif !important;
+
+}
+.wrapper {
+  overflow-x: hidden;
+}
+.main-button {
+  background-color: #c19163;
+  border: none;
+  color: white;
+  padding: 0.7em 1.2em;
+  text-align: center;
+  opacity: 0.7;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.0rem;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.main-button:hover {
+  opacity: 1;
+}
+
+
+
+
+/* Shipping        */
+.shipping {
+  background: black;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  height: 2.8em;
+}
+.shipping p {
+  padding-top: 0.6em;
+}
+
+
+
+
+/* Navigation           */
+.navbar {
+  background-color: #fff;
+}
+.nav-link {
+  margin: 0 1.1em;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  transition: 5s;
+}
+.navbar-brand {
+  text-transform: uppercase;
+  font-family: 'Black Ops One', cursive;
+}
+
+
+
+
+/* Breadcrumb       */
+.breadcrumb-container {
+  margin-top: 3em;
+  height: 35px;
+  font-size: 0.7em;
+  text-transform: uppercase;
+}
+.breadcrumb-list a {
+  color: black;
+}
+
+
+
+
+/* ALL PRODUCTS  */
+.banner-1-img {
+  padding-top: 13em;
+  padding-left: 3em !important;
+  text-transform: uppercase;
+}
+.banner-1-text {
+  font-weight: 700;
+  color: snow;
+  font-family: 'Lato', sans-serif;
+}
+.banner-1 {
+  height: 60vh;
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)) , url("https://images.pexels.com/photos/3789569/pexels-photo-3789569.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-position: left 5% bottom 80%;
+  filter: brightness(85%);
+}
+.banner-1-img-atv {
+  height: 60vh;
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)) , url("https://powersports.honda.com/-/media/products/segment/atv/sport/category-mp/hero/desktop/2020/atv-sport-trx250x-header-2400x1457.jpg");
+  background-position: left 5% bottom 10%;
+  background-size: cover;
+}
+.banner-1-img-db {
+  height: 60vh;
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)) , url("https://images.pexels.com/photos/4085117/pexels-photo-4085117.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: left 50% bottom 55%;
+  background-size: cover;
+}
+.banner-1-img-scooter {
+  height: 60vh;
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)) , url("https://images.pexels.com/photos/4801/italian-sky-clouds-street.jpg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+  background-position: left 5% bottom 60%;
+  background-size: cover;
+}
+/* Products        */
+.product-heading {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: 'Lato', sans-serif;
+}
+.products {
+  margin-top: 7em;
+}
+.product-name {
+  margin-top: 1em;
+  font-weight: bold;
+  transition: 1.2s;
+}
+.product-content {
+  margin-bottom: 6em;
+}
+.cart-button {
+  margin-top: 1em;
+  background-color: #c19163;
+  border: none;
+  color: white;
+  padding: 0.7em 1.2em;
+  text-align: center;
+  opacity: 0.7;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.0rem;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.cart-button:hover {
+  opacity: 1;
+  color: white;
+}
+.stock-button {
+  margin-top: 1em;
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 0.7em 1.2em;
+  text-align: center;
+  opacity: 0.7;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.0rem;
+}
+.cart-btn-space, .stock-btn-space {
+  margin-bottom: 2em;
+}
+
+
+/* Insider        */
+.banner {
+  height: 95vh;
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)) , url("https://images.pexels.com/photos/5195485/pexels-photo-5195485.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+.banner-text {
+  position: relative;
+  color: white;
+  padding-top: 13em;
+  padding-left: 3em !important;
+}
+.banner-text h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.banner-text h6 {
+  font-weight: 400;
+  line-height: 1.5;
+}
+.lightbox {
+  margin-top: 7em;
+}
+.banner-2 {
+  height: 95vh;
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)) , url("https://images.pexels.com/photos/221299/pexels-photo-221299.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: 0% 75%;
+}
+.banner-2-text {
+  position: relative;
+  color: white;
+  padding-top: 13em;
+  padding-left: 3em !important;
+  text-transform: uppercase;
+}
+.job-button {
+  background-color: #c19163;
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition-duration: 0.4s;
+  text-transform: uppercase;
+}
+.job-button:hover {
+  opacity: 1;
+  color: white;
+}
+.job {
+  margin: 5em auto;
+}
+.job h3 {
+  text-transform: uppercase;
+}
+
+
+/* Footer          */
+ul {
+  margin: 0px;
+  padding: 0px !important;
+}
+.footer-social-icon i {
+  width: 0;
+}
+.footer-section {
+  background: #181818;
+  position: relative;
+}
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.footer-logo {
+  margin-bottom: 30px;
+}
+.footer-logo img {
+    max-width: 200px;
+}
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+  color: #7e7e7e;
+  line-height: 28px;
+}
+.footer-social-icon, .useful-links  {
+  margin-bottom: 2em;
+}
+.footer-social-icon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 12px;
+}
+.footer-social-icon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+}
+.footer-social-icon i {
+  height: 40px;
+  width: 0px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+  padding: 0 25px 0 0;
+}
+.facebook-bg{
+  background: #3B5998;
+}
+.twitter-bg{
+  background: #55ACEE;
+}
+.google-bg{
+  background: #DD4B39;
+}
+.footer-widget-heading h3 {
+  color: #E0E0E0;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #c19163;
+}
+.footer-widget ul li {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin-bottom: 12px;
+}
+.footer-widget ul li a {
+  text-decoration: none;
+}
+.footer-widget ul li a:hover{
+  color: #ff5e14;
+}
+.footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+}
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2E2E2E;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+}
+.subscribe-form button {
+  position: absolute;
+  right: 0;
+  background: #c19163;
+  padding: 13px 20px;
+  border: 1px solid #ff5e14;
+  top: 0;
+  color: white;
+}
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+.copyright-area{
+  background: #202020;
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+.copyright-text p a{
+  color: #c19163;
+}
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer-menu li:hover a{
+  color: #ff5e14;
+}
+.footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+}
+
+
+
+
+/* MEDIA         */
+
+/* Phone  */
+@media only screen and (min-width:320px) and (max-width:480px) {
+  .banner {
+    background-position: 60% 10%;
+  }
+  .banner-text {
+    text-shadow: 0 2px black;
+  }
+  .banner-1-img-atv {
+    background-position: left 60% bottom 0%;
+    background-size: cover;
+  }
+  .banner-1-img-db {
+    background-position: left 30% bottom 55%;
+  }
+  .banner-1-img-scooter {
+    background-position: left 65% bottom 60%;
+  }
+}
+
+@media only screen and (min-width:768px) {
+  .heading-container h1 {
+    padding-top: 1.5em;
+    padding-left: 0.4em;
+    font-size: 4.5em;
+  }
+  .nav-link {
+    font-size: 16px;
+  }
+  /* Shipping        */
+  .shipping {
+    font-size: 0.5rem;
+    height: 2.8em;
+  }
+  /* Breadcrumb       */
+  .breadcrumb-container {
+    margin-top: 2em;
+    height: 30px;
+    font-size: 0.7em;
+  }
+  .product-name {
+    font-size: 1rem;
+  }
+  .product-price {
+    font-size: 1rem;
+  }
+  .cart-button {
+    padding: 0.7em 1.2em;
+    font-size: 0.8rem;
+  }
+  .stock-button {
+    padding: 0.7em 1.2em;
+    font-size: 0.8rem;
+  }
+  .product-content img {
+      transition:transform 0.25s ease;
+  }
+
+  .product-content img:hover {
+      -webkit-transform:scale(1.5);
+      transform:scale(1.5);
+  }
+}
